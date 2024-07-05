@@ -120,7 +120,7 @@ impl ApiBuilder {
         let progress = true;
 
         Self {
-            endpoint: "https://huggingface.co".to_string(),
+            endpoint: "https://hf-mirror.com".to_string(),
             url_template: "{endpoint}/{repo_id}/resolve/{revision}/{filename}".to_string(),
             cache,
             token,
